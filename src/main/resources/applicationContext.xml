@@ -8,8 +8,8 @@
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
-    <bean id="redService" class="com.base.services.RedService" />
-    <bean id="greenService" class="com.base.services.GreenService" />
+    <bean id="redService" class="com.base.colors.RedService" />
+    <bean id="greenService" class="com.base.colors.GreenService" />
 
     <bean id="squareFigure" class="com.base.figures.SquareFigure">
         <constructor-arg ref="redService"/>

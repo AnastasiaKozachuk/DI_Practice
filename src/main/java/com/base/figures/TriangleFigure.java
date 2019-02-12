@@ -1,6 +1,6 @@
 package com.base.figures;
 
-import com.base.services.ColorService;
+import com.base.colors.ColorService;
 
 public class TriangleFigure implements Figure {
 

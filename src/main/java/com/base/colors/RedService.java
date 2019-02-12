@@ -1,4 +1,4 @@
-package com.base.services;
+package com.base.colors;
 
 public class RedService implements ColorService {
 
